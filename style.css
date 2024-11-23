@@ -1,6 +1,7 @@
 :root {
   --primary-green: #009688;
   --primary-gray: #bbbbbb;
+  --secondary-gray: #d3d3d3;
 }
 
 * {
@@ -351,7 +352,6 @@ main {
 }
 
 .pricing__heading {
-  background-color: var(--primary-gray);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -380,7 +380,7 @@ main {
   flex-direction: column;
   width: 38%;
   min-width: 200px;
-  border: 1px solid #d3d3d3;
+  border: 1px solid var(--secondary-gray);
   border-bottom: none;
   border-radius: 2px;
   -webkit-border-radius: 2px;
@@ -412,7 +412,7 @@ main {
 
 .plan__feature {
   padding: 1.1rem;
-  border-bottom: 0.5px solid #d3d3d3;
+  border-bottom: 0.5px solid var(--secondary-gray);
   letter-spacing: 1px;
 }
 
@@ -434,7 +434,7 @@ main {
 }
 
 .plan__signup {
-  background-color: #d3d3d3;
+  background-color: var(--secondary-gray);
   border-bottom: none;
   padding: 1.75rem;
 }
@@ -456,6 +456,110 @@ main {
 }
 
 .plan__signup--button:hover {
+  background-color: var(--primary-gray);
+  color: #000;
+}
+
+.contactSection {
+  display: flex;
+  gap: 25px;
+  height: auto;
+  background-color: var(--secondary-gray);
+  padding: 4rem 1rem;
+}
+
+.contact__address {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 40%;
+}
+
+.contact__address h2 {
+  font-size: 1.8rem;
+  width: max-content;
+  border-bottom: 6px solid var(--primary-green);
+}
+
+.contact__address h3 {
+  font-size: 1.5rem;
+}
+
+.contact__address p {
+  font-size: 1rem;
+}
+
+address {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+address a {
+  display: flex;
+  gap: 7px;
+  font-size: 1.05rem;
+}
+
+address i {
+  color: var(--primary-green);
+}
+
+form {
+  width: 55%;
+  background-color: #fff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 1px 0 7px 1px rgba(0, 0, 0, 0.75);
+}
+
+.input__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.input__wrapper input {
+  border-bottom: 1px solid var(--secondary-gray);
+  padding: 0.75rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.input__wrapper input:active {
+  outline: 2px solid;
+}
+
+.form__submit {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  align-items: center;
+}
+
+.form__submit div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.form__submit input {
+  width: 25px;
+  height: 25px;
+}
+
+.submit-btn {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.submit-btn:hover {
   background-color: var(--primary-gray);
   color: #000;
 }
