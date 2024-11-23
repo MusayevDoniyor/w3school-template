@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>W3school Template</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- * Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="nav">
+          <div class="nav__item logo">
+            <a href="/" class="logo__link nav__link">
+              <i class="fa fa-home"></i> Logo
+            </a>
+          </div>
+
+          <ul class="nav__list hide">
+            <li class="nav__item">
+              <a class="nav__link" href="#team">Team</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#work">Work</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#price">Price</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link" href="#contact">Contact</a>
+            </li>
+
+            <li class="nav__item search__item">
+              <a class="nav__link" href="/">Search</a>
+            </li>
+
+            <li class="nav__item">
+              <div class="dropdown">
+                <button class="dropdown-btn">
+                  Dropdown
+                  <i class="fa fa-caret-down"></i>
+                </button>
+
+                <div class="dropdown-content">
+                  <ul class="dropdown__list">
+                    <li class="dropdown__item">
+                      <a class="dropdown__link" href="/">Link</a>
+                    </li>
+
+                    <li class="dropdown__item">
+                      <a class="dropdown__link" href="/">Link</a>
+                    </li>
+
+                    <li class="dropdown__item">
+                      <a class="dropdown__link" href="/">Link</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <button id="menu-toggle" class="menu">
+            <i class="fa fa-bars"></i>
+          </button>
+        </nav>
+
+        <button class="search">
+          <i class="fa fa-search"></i>
+        </button>
+      </header>
+
+      <main>
+        <section class="heroSection">
+          <button class="hero__btn">
+            <a href="https://w3schools.com">LEARN W3.CSS</a>
+          </button>
+        </section>
+
+        <section id="team" class="teamSection">
+          <div class="team__heading">
+            <h2>OUR TEAM</h2>
+            <p>Meet the team - our office rats:</p>
+          </div>
+
+          <div class="team-members">
+            <div class="member">
+              <img
+                class="member__avatar"
+                src="./avatar.jpg"
+                alt="Johnny Walker - Web Designer"
+              />
+              <h3 class="member__name">Johnny Walker</h3>
+              <h4 class="member__job">Web Designer</h4>
+            </div>
+
+            <div class="member">
+              <img
+                class="member__avatar"
+                src="./avatar.jpg"
+                alt="Rebecca Flex - Support"
+              />
+              <h3 class="member__name">Rebecca Flex</h3>
+              <h4 class="member__job">Support</h4>
+            </div>
+
+            <div class="member">
+              <img
+                class="member__avatar"
+                src="./avatar.jpg"
+                alt="Jan RIngo - Boss man"
+              />
+              <h3 class="member__name">Jan Ringo</h3>
+              <h4 class="member__job">Boss man</h4>
+            </div>
+
+            <div class="member">
+              <img
+                class="member__avatar"
+                src="./avatar.jpg"
+                alt="Kai Ringo - Fixer"
+              />
+              <h3 class="member__name">Kai Ringo</h3>
+              <h4 class="member__job">Fixer</h4>
+            </div>
+          </div>
+        </section>
+
+        <section id="work" class="workSection">
+          <div class="work__heading">
+            <h2>OUR WORK</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+
+          <div class="works__container">
+            <div class="work">
+              <img class="work__img" src="./snow.jpg" alt="Snow on mountain" />
+
+              <div class="work__content">
+                <h3 class="work__title">Customer 1</h3>
+
+                <h4 class="work__subtitle">Trade</h4>
+
+                <ul class="work__list">
+                  <li>Blablabla</li>
+                  <li>Blablabla</li>
+                  <li>Blablabla</li>
+                  <li>Blablabla</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="work">
+              <img
+                class="work__img"
+                src="./lights.jpg"
+                alt="Lights in the sky"
+              />
+
+              <div class="work__content">
+                <h3 class="work__title">Customer 2</h3>
+
+                <h4 class="work__subtitle">Trade</h4>
+
+                <ul class="work__list">
+                  <li>Blablabla</li>
+                  <li>Blablabla</li>
+                  <li>Blablabla</li>
+                  <li>Blablabla</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="work">
+              <img
+                class="work__img"
+                src="./mountains.jpg"
+                alt="Mountains with road and river"
+              />
+
+              <div class="work__content">
+                <h3 class="work__title">Customer 3</h3>
+
+                <h4 class="work__subtitle">Trade</h4>
+
+                <ul class="work__list">
+                  <li>Blablabla</li>
+                  <li>Blablabla</li>
+                  <li>Blablabla</li>
+                  <li>Blablabla</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <button class="plus-btn">
+            <i class="fa fa-plus"></i>
+          </button>
+        </section>
+
+        <section id="price" class="pricingSection">
+          <div class="pricing__heading">
+            <h2>Pricing</h2>
+            <p>Choose a pricing plan that fits you needs.</p>
+          </div>
+
+          <div class="plans__container">
+            <div class="plan__card">
+              <h3 class="plan__title">Basic</h3>
+
+              <ul class="plan__features">
+                <li class="plan__feature">
+                  <strong> 10GB </strong>
+                  Storage
+                </li>
+
+                <li class="plan__feature">
+                  <strong>10</strong>
+                  Emails
+                </li>
+
+                <li class="plan__feature">
+                  <strong>10</strong>
+                  Domains
+                </li>
+
+                <li class="plan__feature">
+                  <strong>Endless</strong>
+                  Support
+                </li>
+
+                <li class="plan__feature plan__price">
+                  <div>
+                    <strong>$</strong>
+                    10
+                  </div>
+                  <span>per month</span>
+                </li>
+
+                <li class="plan__feature plan__signup">
+                  <button class="plan__signup--button">
+                    <i class="fa fa-check"></i>
+                    Sign Up
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="plan__card">
+              <h3 class="plan__title plan__title--pro">Pro</h3>
+
+              <ul class="plan__features">
+                <li class="plan__feature">
+                  <strong> 25GB </strong>
+                  Storage
+                </li>
+
+                <li class="plan__feature">
+                  <strong>25</strong>
+                  Emails
+                </li>
+
+                <li class="plan__feature">
+                  <strong>25</strong>
+                  Domains
+                </li>
+
+                <li class="plan__feature">
+                  <strong>Endless</strong>
+                  Support
+                </li>
+
+                <li class="plan__feature plan__price">
+                  <div>
+                    <strong>$</strong>
+                    25
+                  </div>
+                  <span>per month</span>
+                </li>
+
+                <li class="plan__feature plan__signup">
+                  <button class="plan__signup--button">
+                    <i class="fa fa-check"></i>
+                    Sign Up
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="plan__card">
+              <h3 class="plan__title">Premium</h3>
+
+              <ul class="plan__features">
+                <li class="plan__feature">
+                  <strong>50GB</strong>
+                  Storage
+                </li>
+
+                <li class="plan__feature">
+                  <strong>50</strong>
+                  Emails
+                </li>
+
+                <li class="plan__feature">
+                  <strong>50</strong>
+                  Domains
+                </li>
+
+                <li class="plan__feature">
+                  <strong>Endless</strong>
+                  Support
+                </li>
+
+                <li class="plan__feature plan__price">
+                  <div>
+                    <strong>$</strong>
+                    50
+                  </div>
+                  <span>per month</span>
+                </li>
+
+                <li class="plan__feature plan__signup">
+                  <button class="plan__signup--button">
+                    <i class="fa fa-check"></i>
+                    Sign Up
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
