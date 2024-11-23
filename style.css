@@ -564,6 +564,82 @@ form {
   color: #000;
 }
 
+.mapSection {
+  height: 90vh;
+  background-image: url("./images/map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+footer {
+  height: 40vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+footer h2 {
+  font-size: 1.5rem;
+}
+
+footer p {
+  font-size: 1.1rem;
+}
+
+.socials {
+  display: flex;
+  gap: 5px;
+}
+
+.socials a i {
+  padding: 0.75rem 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  background-color: var(--primary-green);
+}
+
+.socials a i:hover {
+  background-color: var(--primary-gray);
+  color: #000;
+}
+
+.gotoTop {
+  position: absolute;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.gotoTop p {
+  display: none;
+  padding: 0.75rem;
+  background-color: var(--primary-green);
+}
+
+.gotoTop button {
+  padding: 1rem;
+}
+
+.gotoTop button i {
+  font-size: 1.5rem;
+}
+
+.gotoTop button:hover p {
+  display: block;
+}
+
+.gotoTop button:hover i {
+  color: #000;
+}
+
 @media screen and (max-width: 768px) {
   header {
     flex-wrap: wrap;
@@ -682,5 +758,13 @@ form {
 
   .plan__card {
     width: 95%;
+  }
+
+  .contactSection {
+    flex-direction: column;
+  }
+
+  form {
+    width: 100%;
   }
 }
